@@ -1,6 +1,8 @@
 {
-  "name": "vue-manage-system",
-  "version": "4.0.0",
+  "name": "community-admin",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "author": "F22PKJ31 <1136286586@qq.com>",
   "private": true,
   "scripts": {
     "dev": "npm run serve",

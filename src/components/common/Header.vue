@@ -6,9 +6,7 @@
         <div class="logo">后台管理系统</div>
         <div class="header-right">
             <div class="header-user-con">
-                <!-- 用户头像 -->
                 <div class="user-avator"><img src="../../assets/img/img.jpg"></div>
-                <!-- 用户名下拉菜单 -->
                 <el-dropdown class="user-name" trigger="click" @command="handleCommand">
                     <span class="el-dropdown-link">
                         {{username}} <i class="el-icon-caret-bottom"></i>
@@ -22,13 +20,14 @@
     </div>
 </template>
 <script>
-    import bus from '../common/bus';
-    export default {
+  import bus from '../common/bus';
+
+  export default {
         data() {
             return {
                 collapse: false,
                 fullscreen: false,
-                name: 'linxin',
+              name: 'F22PKJ31 <1136286586@qq.com>',
             }
         },
         computed:{
