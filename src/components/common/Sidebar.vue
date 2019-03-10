@@ -64,12 +64,12 @@
                         title: '新闻管理'
                     },{
                         icon: 'el-icon-lx-cascades',
-                        index: 'categoryTable',
-                        title: '新闻分类管理'
-                    },{
-                        icon: 'el-icon-lx-cascades',
                         index: 'newsComment',
                         title: '新闻评论管理'
+                    },{
+                        icon: 'el-icon-lx-cascades',
+                        index: 'categoryTable',
+                        title: '新闻分类管理'
                     },{
                         icon: 'el-icon-lx-cascades',
                         index: 'user',
